@@ -1,0 +1,7 @@
+# Simulation outputs and wave dumps
+*.vcd
+design_adder
+design_carry_lookahead
+
+# OS generated files
+.DS_Store
