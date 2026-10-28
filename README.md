@@ -31,11 +31,11 @@ sudo apt-get install iverilog gtkwave
 iverilog -o design_adder *.v
 
 # Run the simulation executable to generate the VCD waveform dump
-./design_adder
+vvp design_adder
 ```
 
 ### Viewing Waveforms
 Open the generated `.vcd` file inside GTKWave to trace signal behaviors:
 ```bash
-gtkwave adder_sim_output.vcd 
+gtkwave *.vcd 
 ```
